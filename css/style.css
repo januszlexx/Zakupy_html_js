@@ -1,0 +1,44 @@
+
+html, body, .container{ /*wyśrodkowanie*/
+    height: 100%;
+}
+body {
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.container { /*wyśrodkowanie*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 25px;
+    
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 62px rgba(78, 0, 0, 0.3);
+}
+
+.app-container h3 {
+    margin: 0 0 25px;
+}
+
+
+/*New Task*/
+.new-task-container {
+    margin-bottom: 20px;
+}
+
+/*Task List*/
+.tasks-container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.single-task {
+    margin: 10px 0;
+}
